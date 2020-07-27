@@ -13,6 +13,9 @@ class Tarjeta extends Component {
         return (
             <div className="row">
                 <div className="container-fluid">
+                    <div class="alert alert-light title" role="alert">
+                        {this.props.titulo}
+                    </div>
                     {this.props.children}
                 </div>
             </div>

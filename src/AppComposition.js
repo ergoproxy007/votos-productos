@@ -1,34 +1,24 @@
 import React from "react";
 import "./App.css";
 import Tarjeta from "./componentes/Tarjeta/Tarjeta";
-import BloqueLeft from "./componentes/BloqueLeft/BloqueLeft";
-import BloqueRight from "./componentes/BloqueRight/BloqueRight";
+import BloqueLeft from "./componentes/BloqueLeft/BloqueLeft.jsx";
+import BloqueRight from "./componentes/BloqueRight/BloqueRight.jsx";
+import BloqueImagen from "./componentes/BloqueImagen/BloqueImagen.jsx";
+import SimpleCard from "./componentes/SimpleCard/SimpleCard.jsx";
 
 function AppComposition() {
   return (
     <div className="App">
-      <Tarjeta>
+      <Tarjeta titulo="Lista de Productos">
         <BloqueLeft>
-          <div class="card border-secondary mb-3">
-            <div class="card-header">Header</div>
-            <div class="card-body text-secondary">
-              <h5 class="card-title">Espacio Izquierdo</h5>
-              <p class="card-text">
-                Espacio Izquierdo
-              </p>
-            </div>
-          </div>
+          <BloqueImagen foto="a30s-2.jpg" />
         </BloqueLeft>
         <BloqueRight>
-          <div class="card border-primary mb-3">
-            <div class="card-header">Header</div>
-            <div class="card-body text-primary">
-              <h5 class="card-title">Espacio Derecho</h5>
-              <p class="card-text">
-                Espacio Derecho
-              </p>
-            </div>
-          </div>          
+          <SimpleCard>
+            <p>Componente 1 Productos</p>
+            <p>Componente 2 Productos</p>
+            <p>Componente 3 Productos</p>
+          </SimpleCard>       
         </BloqueRight>
       </Tarjeta>
     </div>
