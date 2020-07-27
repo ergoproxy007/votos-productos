@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import PropTypes from "prop-types"; //ES6
+import "./vendedor.css";
 
 class Vendedor extends Component {
   constructor(props) {
@@ -9,18 +10,18 @@ class Vendedor extends Component {
 
   render() {
     return (
-      <div class="container my-4">
-        <div class="row text-center">
-          <div class="col-md-6 mb-4">
-            <h6 class="my-5 h2">Componente 1</h6>
-            <img
-              class="rounded-circle"
-              src="https://mdbootstrap.com/img/Photos/Avatars/img%20(30).jpg"
-              data-holder-rendered="true"
-              width="100px"
-              height="100px"
-            />
-          </div>
+      <div className="row">
+        <div className="col-md-3">
+          <h5 className="vende">Vende: </h5>
+        </div>
+        <div className="col-md-3">
+          <img
+            className="rounded-circle"
+            src={this.props.fotoPerfil}
+            data-holder-rendered="true"
+            width="50px"
+            height="50px"
+          />
         </div>
       </div>
     );
