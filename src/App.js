@@ -1,6 +1,7 @@
 import React from "react";
 import "./App.css";
 import Producto from "./componentes/producto/Producto";
+import "react-responsive-modal/styles.css";
 
 function App() {
   const productos = [
