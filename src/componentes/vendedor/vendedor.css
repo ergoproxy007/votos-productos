@@ -1,3 +1,7 @@
-.vendedor-vende {
-    text-align: left;
+img.rounded-circle {
+    align-items: left;
+}
+
+img.rounded-circle:hover {
+    transform: scale(1.5);
 }
