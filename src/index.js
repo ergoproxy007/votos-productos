@@ -9,8 +9,8 @@ import AppComposition from './AppComposition';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
     <AppComposition />
+    <App />
   </React.StrictMode>,
   document.getElementById('root')
 );
