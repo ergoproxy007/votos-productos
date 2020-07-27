@@ -33,9 +33,9 @@ class Vendedor extends Component {
             this.setState({ open: false });
           }}
         >
-          <p className="infoVendedor">
-            Informacion del vendedor y del producto escogido
-          </p>
+          <div className="infoVendedor">
+            <h2>{this.props.infoVendedor}</h2>
+          </div>
         </Modal>
       </div>
     );

@@ -22,7 +22,10 @@ class ItemProducto extends Component {
           <SimpleCard>
             <p>Componente 1 Productos</p>
             <p>Componente 2 Productos</p>
-            <Vendedor fotoPerfil={this.props.producto.fotoPerfil} />
+            <Vendedor
+              fotoPerfil={this.props.producto.fotoPerfil}
+              infoVendedor={this.props.producto.infoVendedor}
+            />
           </SimpleCard>
         </BloqueRigh>
       </>
