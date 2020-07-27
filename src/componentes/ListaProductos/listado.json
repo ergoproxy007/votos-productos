@@ -1,17 +1,20 @@
 [
   {
     "nombre": "Samsung A30",
+    "descripcion": "Despliega tus sentidos con el nuevo Samsung A30 plus",
     "foto": "a30s-2.jpg",
     "fotoPerfil": "https://img2.freepng.es/20190702/tl/kisspng-computer-icons-portable-network-graphics-avatar-tr-clip-directory-professional-transparent-amp-png-5d1bfa95e508d4.2980489715621147099381.jpg"
   },
   {
     "nombre": "Huawei Y9 2019",
+    "descripcion": "Desde China Huawei nos ofrece la mayor tecnología al mejor precio",
     "foto": "huawei-y9-2019.jpeg",
     "fotoPerfil": "https://i.pinimg.com/736x/49/c8/e4/49c8e403cd1929e9e7b02126824ff831.jpg"
   },
   {
     "nombre": "motorola one",
     "foto": "moto-one.jpg",
+    "descripcion": "Tu Moto ONE viene con todas las caraterísticas para fotógrafos expertos",
     "fotoPerfil": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcS0d4CrFaUnD7NjPTdmbULFdsZ9DCcifMoj4Q&usqp=CAU"
   }
 ]

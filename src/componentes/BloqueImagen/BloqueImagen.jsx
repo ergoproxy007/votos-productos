@@ -10,7 +10,7 @@ class BloqueImagen extends Component {
 
     render(){
         return (
-            <div class="card">
+            <div class="card border-0">
                 <img src={require('./'+this.props.foto)} class="img-fluid" width="120px" />
             </div>
         )
