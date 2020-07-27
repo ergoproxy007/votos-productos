@@ -1,8 +1,16 @@
 img.rounded-circle {
-    align-items: left;
-    transition: 0.5s;
+  align-items: left;
+  transition: 0.5s;
 }
 
 img.rounded-circle:hover {
-    transform: scale(1.5);
+  transform: scale(1.5);
+}
+
+.infoVendedor {
+  background-color: white;
+  font-size: 20px;
+  text-align: justify;
+  margin: 30px;
+  font-family: Arial, Helvetica, sans-serif;
 }

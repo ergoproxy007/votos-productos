@@ -23,8 +23,8 @@ class Vendedor extends Component {
             className="rounded-circle"
             src={this.props.fotoPerfil}
             data-holder-rendered="true"
-            width="50px"
-            height="50px"
+            width="40px"
+            height="40px"
           />
         </div>
         <Modal
@@ -33,7 +33,9 @@ class Vendedor extends Component {
             this.setState({ open: false });
           }}
         >
-          Informacion del vendedor y del producto escogido: ;
+          <p className="infoVendedor">
+            Informacion del vendedor y del producto escogido
+          </p>
         </Modal>
       </div>
     );
