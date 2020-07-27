@@ -4,7 +4,8 @@ import SimpleCard from "../SimpleCard/SimpleCard";
 import BloqueLeft from "../BloqueLeft/BloqueLeft.jsx";
 import BloqueRigh from "../BloqueRight/BloqueRight.jsx";
 import BloqueImagen from "../BloqueImagen/BloqueImagen.jsx";
-import Vendedor from "../vendedor/Vendedor";
+import Vendedor from "../vendedor/Vendedor.jsx";
+import Descripcion from "../Descripcion/Descripcion.jsx";
 
 class ItemProducto extends Component {
   constructor(props) {
@@ -21,7 +22,10 @@ class ItemProducto extends Component {
         <BloqueRigh>
           <SimpleCard>
             <p>Componente 1 Productos</p>
-            <p>Componente 2 Productos</p>
+            <Descripcion 
+              nombre={this.props.producto.nombre}
+              descripcion={this.props.producto.descripcion}
+            />
             <Vendedor
               fotoPerfil={this.props.producto.fotoPerfil}
               infoVendedor={this.props.producto.infoVendedor}

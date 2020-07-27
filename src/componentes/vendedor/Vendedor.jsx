@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import PropTypes from "prop-types"; //ES6
 import "./vendedor.css";
 import Modal from "react-responsive-modal";
 
@@ -11,16 +10,16 @@ class Vendedor extends Component {
 
   render() {
     return (
+      <div className="contenedor">
       <div className="row">
-        <div className="col-md-6">
+        <div className="col-md-3">
           <h5 className="vende">Vende: </h5>
         </div>
-        <div className="col-md-3">
-          <img
+        <div className="col-md-9">
+          <img className="rounded-circle c-pointer"
             onClick={() => {
               this.setState({ open: true });
             }}
-            className="rounded-circle"
             src={this.props.fotoPerfil}
             data-holder-rendered="true"
             width="40px"
@@ -37,6 +36,7 @@ class Vendedor extends Component {
             <h2>{this.props.infoVendedor}</h2>
           </div>
         </Modal>
+      </div>
       </div>
     );
   }
