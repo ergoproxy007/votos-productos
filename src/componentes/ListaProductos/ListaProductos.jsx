@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
-import SimpleCard from '../SimpleCard/SimpleCard';
-import BloqueLeft from '../BloqueLeft/BloqueLeft';
-import BloqueRigh from '../BloqueRight/BloqueRight';
-import BloqueImagen from '../BloqueImagen/BloqueImagen';
+
+import listado from './listado.json';
+import ItemProducto from '../ItemProducto/ItemProducto';
 
 class ListaProductos extends Component {
     constructor(props){
@@ -13,18 +12,14 @@ class ListaProductos extends Component {
     }
 
     render(){
+        const itemsProductos = listado;
         return (
             <>
-                <BloqueLeft>
-                    <BloqueImagen foto="a30s-2.jpg" />
-                </BloqueLeft>
-                <BloqueRigh>
-                    <SimpleCard>
-                        <p>Componente 1 Productos</p>
-                        <p>Componente 2 Productos</p>
-                        <p>Componente 3 Productos</p>
-                    </SimpleCard>
-                </BloqueRigh>
+                {
+                    itemsProductos.map(item => (
+                       <ItemProducto producto={item} />
+                    ))
+                }
             </>
         )
     }

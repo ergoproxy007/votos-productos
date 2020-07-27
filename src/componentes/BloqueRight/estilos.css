@@ -1,13 +1,12 @@
  
   .SplitPane {
     width: 100%;
-    height: 100%;
   }
   
   .SplitPane-right {
     float: left;
     width: 88%;
-    height: 100%;
+    height: 180px;
   }
 
   .right-bloque {

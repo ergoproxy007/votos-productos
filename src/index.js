@@ -4,13 +4,11 @@ import './index.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import * as serviceWorker from './serviceWorker';
 import App from './App';
-import AppComposition from './AppComposition';
-
+import HomeProductos from "./HomeProductos";
 
 ReactDOM.render(
   <React.StrictMode>
-    <AppComposition />
-    <App />
+    <HomeProductos />
   </React.StrictMode>,
   document.getElementById('root')
 );

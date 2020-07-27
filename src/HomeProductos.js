@@ -3,7 +3,7 @@ import "./App.css";
 import Tarjeta from "./componentes/Tarjeta/Tarjeta";
 import ListaProductos from "./componentes/ListaProductos/ListaProductos";
 
-function AppComposition() {
+function HomeProductos() {
   return (
     <div className="App">
       <Tarjeta titulo="Lista de Productos">
@@ -13,4 +13,4 @@ function AppComposition() {
   );
 }
 
-export default AppComposition;
+export default HomeProductos;
