@@ -18,8 +18,8 @@ class Producto extends Component {
               className="rounded-corners"
               src="https://thumbs.dreamstime.com/b/caja-de-papel-marr%C3%B3n-abierta-con-la-sombra-33123153.jpg"
               data-holder-rendered="true"
-              width="100px"
-              height="100px"
+              width="200px"
+              height="200px"
             />
           </div>
           <div className="col-md-8">
