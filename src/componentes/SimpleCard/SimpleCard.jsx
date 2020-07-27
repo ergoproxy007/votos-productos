@@ -10,7 +10,7 @@ class SimpleCard extends Component {
 
     render(){
         return (
-            <div className="card">
+            <div className="card border-0">
                 {this.props.children}
             </div> 
         )
